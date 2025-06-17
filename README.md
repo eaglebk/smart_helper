@@ -1,6 +1,8 @@
 # smart_helper
 
-<p align="center">
+![Rust](https://img.shields.io/badge/Made_with-Rust-orange?logo=rust) ![CI](https://github.com/eaglebk/smart_helper/actions/workflows/rust.yml/badge.svg) ![License](https://img.shields.io/badge/license-MIT-green)
+
+<p>
   <img src="assets/cover.png" width="150" alt="Обложка проекта">
 </p>
 
@@ -36,6 +38,23 @@ cargo run -- devices.txt ламп
 - безопасной обработке данных
 
 этот код подойдёт как стартовая точка.
+
+## 🖥️ Пример использования
+
+```bash
+$ cargo run -- devices.txt лампочка
+```
+
+```yaml
+🔍 Найдено совпадений 1:
+
+🔶  Название: Умная лампочка Philips Hue RGB
+🔶  ID: light_hue_rgb_01
+🔶  Местоположение: Гостиная
+🔶  Серийный номер: PH-HUE-01
+🔶  Возможности: диммируемая, цветная
+```
+
 
 ## 🦀 Автор
 Этот репозиторий создан в рамках серии Rust-статей на https://eagle2001.space.
