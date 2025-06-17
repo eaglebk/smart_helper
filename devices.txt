@@ -1,0 +1,12 @@
+device_id: light_hue_rgb_01
+name: Умная лампочка Philips Hue RGB
+location: Гостиная
+serial: PH-HUE-01
+features: [диммируемая, цветная]
+---
+device_id: plug_lenovo_16a
+name: Розетка умная Lenovo
+location: Кухня
+serial: LN-PLUG-44891
+features: [мониторинг_питания]
+
